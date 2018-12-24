@@ -1,5 +1,4 @@
 function comments(state = [], actions) {
-
 	return state;
 }
 
