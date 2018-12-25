@@ -18,7 +18,7 @@ export function dontLike(indexFoto) {
 
 //add comment
 export function addComment(postId, comment, author) {
-	console.log("dispaching comment from reducer");
+	console.log("dispaching comment from actions");
 	return {
 		type: 'ADD_COMMENT',
 		postId, 
